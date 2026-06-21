@@ -84,7 +84,9 @@ done
 ```
 
 ## 10. Copy the cleaned audio files back to the robot
-```scp -O -r -i /location/of/private/key ./cleaned_wav/*.wav root@ROBOT_IP:/opt/rockrobo/resources/sounds/en```
+```
+scp -O -r -i /location/of/private/key ./cleaned_wav/*.wav root@ROBOT_IP:/opt/rockrobo/resources/sounds/en
+```
 
 ## 11. Reboot your robot
 If everything was done correctly, it should now use your new audio files.
