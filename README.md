@@ -1,4 +1,4 @@
-# roborock-s5-valetudo-voice-change
+# roborock-s5-valetuda-voice-change
 Guide and scripts for changing the voice on your Roborock S5 (gen2) to anything you want
 
 This guide assumes that you've successfully installed [Valetudo](https://valetudo.cloud/) on your S5 and have the private key needed to log in to your robot using ssh. It also
