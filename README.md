@@ -18,7 +18,9 @@ cd roborock-s5-valetudo-voice-change
 ```
 
 ## 2. Login to your robot using ssh and your private key
-```ssh -i /location/of/private/key root@ROBOT_IP```
+```
+ssh -i /location/of/private/key root@ROBOT_IP
+```
 
 Figure out the location of the audio files on your robot. On my device, the location was ```/opt/rockrobo/resources/sounds/en```
 
