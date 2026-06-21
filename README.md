@@ -78,7 +78,8 @@ S5 is picky, so this has to be done
 ```
 mkdir -p cleaned_wav
 for f in new_wav/*.wav; do
-    ffmpeg -i "$f" -acodec pcm_s16le -ar 16000 -ac 1 -map_metadata -1 -fflags +bitexact "cleaned_wav/$f"
+    filename=$(basename "$f")
+    ffmpeg -i "$f" -acodec pcm_s16le -ar 16000 -ac 1 -map_metadata -1 -fflags +bitexact "cleaned_wav/$filename"
 done
 ```
 
