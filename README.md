@@ -40,7 +40,7 @@ versions too of course.
 ```
 exit
 mkdir wav
-scp -O -r -i /location/of/private/key root@ROBOT_IP:/opt/rockrobo/resources/sounds/en/*.wav ./wav
+scp -O -r -i /location/of/private/key root@ROBOT_IP:/opt/rockrobo/resources/sounds/en_bak/*.wav ./wav
 rm wav/di*
 ```
 ```di.wav``` and ```ding.wav``` are removed above as faster-whisper just creates gibberish of them
